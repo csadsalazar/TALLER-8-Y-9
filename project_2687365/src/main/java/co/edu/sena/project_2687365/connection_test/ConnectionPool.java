@@ -2,7 +2,7 @@ package co.edu.sena.project_2687365.connection_test;
 import org.apache.commons.dbcp2.BasicDataSource;
 import java.sql.*;
 public class ConnectionPool {
-    private static String url ="jdbc:mysql://localhost:3306/project2687365?serverTimezone=America/Bogota";
+    private static String url ="jdbc:mysql://localhost:3306/mybase?serverTimezone=America/Bogota";
     private static String user = "root";
     private static String pass = "";
     private static BasicDataSource pool;
