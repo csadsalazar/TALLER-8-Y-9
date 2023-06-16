@@ -3,8 +3,8 @@ import org.apache.commons.dbcp2.BasicDataSource;
 import java.sql.*;
 public class ConnectionPool {
     private static String url ="jdbc:mysql://localhost:3306/mybase?serverTimezone=America/Bogota";
-    private static String user = "root";
-    private static String pass = "";
+    private static String user = "project2687365";
+    private static String pass = "project2687365";
     private static BasicDataSource pool;
     public static BasicDataSource
     getInstance() throws SQLException {
